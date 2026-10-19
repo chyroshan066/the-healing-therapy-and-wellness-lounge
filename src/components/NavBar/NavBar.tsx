@@ -51,7 +51,7 @@ export const NavBar = memo(() => {
                     className={styles.navbarBrand}
                     href="/"
                 >
-                    <span className="flaticon-lotus" />Absolute Professional
+                    <span className="flaticon-lotus" />The Healing Therapy
                 </Link>
 
                 <button

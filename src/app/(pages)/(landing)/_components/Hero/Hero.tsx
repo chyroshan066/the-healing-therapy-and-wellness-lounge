@@ -15,7 +15,7 @@ export const Hero = memo(() => (
                     <div className={styles.icon}>
                         <span className="flaticon-lotus" />
                     </div>
-                    <h1>Absolute Professional Spa &amp; Center</h1>
+                    <h1>The Healing Therpay &amp; Wellness Lounge</h1>
                     <div className="row justify-content-center">
                         <div className="col-md-7 mb-3">
                             <p>Unwind, restore, and rediscover your inner balance. Experience authentic wellness through ancient healing traditions.</p>

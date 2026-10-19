@@ -26,8 +26,8 @@ export const Footer = memo(() => (
         <div className="container">
             <div className="row d-flex">
 
-                <ColumnWrapper title="Absolute Professional Spa & Salon">
-                    <p>Experience authentic wellness and rejuvenation at Absolute Professional Spa & Salon. Offering seven specialized treatments including Warrior Thai, Sports Therapy, Pain Potli, and Hot Stone Therapy across our three convenient locations in Nepal and India.</p>
+                <ColumnWrapper title="The Healing Therapy & Wellness Lounge">
+                    <p>Experience authentic wellness and rejuvenation at The Healing Therapy & Wellness Lounge. Offering seven specialized treatments including Warrior Thai, Sports Therapy, Pain Potli, and Hot Stone Therapy across our three convenient locations in Nepal.</p>
                     <ul className={`${styles.ftcoFooterSocial} ${styles.floatLeft} mt-3 ${styles.listUnstyled}`}>
 
                         {SOCIAL_LINKS.map((link, index) => (
