@@ -5,12 +5,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Our Treatments - Warrior Thai, Hot Stone, Sports Massage | Best Spa in Jhapa, Birtamode, Dhulabari",
-    description: "Explore premium spa treatments at Absolute Professional Spa & Salon. Offering Warrior Thai, Sports Massage, Hot Stone Therapy, Pain Potli, Swedish, Aromatherapy & D-Stress across Jhapa, Birtamode, Dhulabari & Panitanki.",
+    description: "Explore premium spa treatments at The Healing Therapy & Wellness Lounge. Offering Warrior Thai, Sports Massage, Hot Stone Therapy, Pain Potli, Swedish, Aromatherapy & D-Stress across Jhapa, Birtamode, & Dhulabari.",
     keywords: [
         "spa treatments Jhapa",
         "massage treatments Birtamode",
         "spa services Dhulabari",
-        "massage therapy Panitanki",
+        // "massage therapy Panitanki",
         "best spa treatments Jhapa",
         "Warrior Thai massage Jhapa",
         "Thai massage Birtamode",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         "wellness treatments Dhulabari",
         "best massage Jhapa Nepal",
         "professional spa services",
-        "Absolute Professional treatments",
+        "The Healing Therapy treatments",
         "premium spa therapy Jhapa"
     ],
     alternates: {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Spa Treatments - Warrior Thai, Hot Stone & More | Best Spa in Jhapa",
-        description: "Discover 7 premium spa treatments at Absolute Professional Spa & Salon. From Warrior Thai to Pain Potli, experience authentic healing in Birtamode, Dhulabari, and Panitanki.",
+        description: "Discover 7 premium spa treatments at The Healing Therapy & Wellness Lounge. From Warrior Thai to Pain Potli, experience authentic healing in Birtamode, and Dhulabari,.",
         url: `${baseURL}/treatments`,
         images: [
             {

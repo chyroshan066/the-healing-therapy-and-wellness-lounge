@@ -98,9 +98,9 @@ interface TreatmentsStructuredData extends Name, Description {
 export const spaBusinessStructuredData: SpaBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "BeautySalon",
-  "name": "Absolute Professional Spa & Salon",
-  "description": "Premium spa and massage therapy services in Jhapa, Nepal and India. Offering Warrior Thai, Sports Massage, Hot Stone Therapy, Pain Potli, Swedish, Aromatherapy & D-Stress treatments. Expert therapists, traditional healing methods, and professional wellness care across three locations in Birtamode, Dhulabari, and Panitanki.",
-  "url": "https://www.absoluteprofessionalspa.com.np",
+  "name": "The Healing Therapy & Wellness Lounge",
+  "description": "Premium spa and massage therapy services in Jhapa, Nepal. Offering Warrior Thai, Sports Massage, Hot Stone Therapy, Pain Potli, Swedish, Aromatherapy & D-Stress treatments. Expert therapists, traditional healing methods, and professional wellness care across three locations in Birtamode, and Dhulabari.",
+  "url": "https://www.thehealingtherapy.com.np",
   
   "address": [
     {
@@ -120,7 +120,7 @@ export const spaBusinessStructuredData: SpaBusinessStructuredData = {
   ],
   
   "telephone": ["+977-9701064228", "+977-9701064228"],
-  "email": "absoluteprofessionalspaandsalo@gmail.com",
+  "email": "thehealingtherapy.np@gmail.com",
   
   "openingHours": [
     "Su-Sa 09:30-19:30",
@@ -131,7 +131,7 @@ export const spaBusinessStructuredData: SpaBusinessStructuredData = {
   
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.0",
+    "ratingValue": "4.5",
     "ratingCount": "8"
   },
   
@@ -157,7 +157,7 @@ export const spaBusinessStructuredData: SpaBusinessStructuredData = {
     "@type": "ReserveAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.absoluteprofessionalspa.com.np/contact"
+      "urlTemplate": "https://www.thehealingtherapy.com.np/contact"
     },
     "result": {
       "@type": "Appointment",
@@ -178,7 +178,7 @@ export const spaBusinessStructuredData: SpaBusinessStructuredData = {
           "serviceType": "Massage Therapy",
           "provider": {
             "@type": "Organization",
-            "name": "Absolute Professional Spa & Salon"
+            "name": "The Healing Therapy & Wellness Lounge"
           }
         }
       },
@@ -191,7 +191,7 @@ export const spaBusinessStructuredData: SpaBusinessStructuredData = {
           "serviceType": "Massage Therapy",
           "provider": {
             "@type": "Organization",
-            "name": "Absolute Professional Spa & Salon"
+            "name": "The Healing Therapy & Wellness Lounge"
           }
         }
       }
@@ -295,7 +295,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Massage Therapy",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -309,7 +309,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Sports Therapy",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -323,7 +323,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Pain Management",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -337,7 +337,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Wellness Therapy",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -351,7 +351,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Thermotherapy",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -365,7 +365,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Holistic Therapy",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     },
@@ -379,7 +379,7 @@ export const spaTreatmentsStructuredData: TreatmentsStructuredData = {
         "serviceType": "Classic Massage",
         "provider": {
           "@type": "Organization",
-          "name": "Absolute Professional Spa & Salon"
+          "name": "The Healing Therapy & Wellness Lounge"
         }
       }
     }

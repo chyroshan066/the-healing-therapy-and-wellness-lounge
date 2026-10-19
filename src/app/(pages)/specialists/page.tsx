@@ -4,13 +4,13 @@ import { baseURL } from "@/constants";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Our Specialists - Expert Massage Therapists | Absolute Professional Spa Jhapa, Birtamode, Dhulabari",
-    description: "Meet our certified massage therapists and spa specialists at Absolute Professional Spa & Salon. Expert professionals in Thai massage, hot stone therapy, sports massage & more across Jhapa, Birtamode, Dhulabari & Panitanki.",
+    title: "Our Specialists - Expert Massage Therapists | The Healing Therapy & Wellness Lounge Jhapa, Birtamode, Dhulabari",
+    description: "Meet our certified massage therapists and spa specialists at The Healing Therapy & Wellness Lounge. Expert professionals in Thai massage, hot stone therapy, sports massage & more across Jhapa, Birtamode, & Dhulabari.",
     keywords: [
         "spa specialists Jhapa",
         "massage therapists Birtamode",
         "spa therapists Dhulabari",
-        "massage specialists Panitanki",
+        // "massage specialists Panitanki",
         "certified massage therapists Jhapa",
         "expert spa therapists Nepal",
         "professional massage specialists Birtamode",
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Our Specialists - Expert Massage Therapists at Best Spa in Jhapa",
-        description: "Discover our team of certified massage therapists and spa specialists. Absolute Professional Spa & Salon's expert professionals provide premium treatments in Birtamode, Dhulabari, and Panitanki.",
+        description: "Discover our team of certified massage therapists and spa specialists. The Healing Therapy & Wellness Lounge's expert professionals provide premium treatments in Birtamode, and Dhulabari.",
         url: `${baseURL}/specialists`,
         images: [
             {
                 url: `${baseURL}/images/preview.webp`,
                 width: 1200,
                 height: 630,
-                alt: "Expert Massage Therapists - Absolute Professional Spa Specialists in Jhapa, Nepal",
+                alt: "Expert Massage Therapists - The Healing Therapy & Wellness Lounge in Jhapa, Nepal",
             }
         ],
     },

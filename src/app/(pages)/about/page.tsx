@@ -9,14 +9,14 @@ import { baseURL } from "@/constants";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About Us - Absolute Professional Spa & Salon | Best Spa in Jhapa, Birtamode, Dhulabari",
-    description: "Discover Absolute Professional Spa & Salon, the best spa in Jhapa with 3 branches in Birtamode, Dhulabari, and Panitanki. Learn about our expert therapists, traditional healing treatments, and commitment to wellness in Nepal and India.",
+    title: "About Us - The Healing Therapy & Wellness Lounge | Best Spa in Jhapa, Birtamode, Dhulabari",
+    description: "Discover The Healing Therapy & Wellness Lounge, the best spa in Jhapa with 3 branches in Birtamode, and Dhulabari. Learn about our expert therapists, traditional healing treatments, and commitment to wellness in Nepal.",
     keywords: [
-        "about Absolute Professional Spa",
+        "about The Healing Therapy & Wellness Lounge",
         "best spa in Jhapa",
         "spa in Birtamode about",
         "spa in Dhulabari about",
-        "spa in Panitanki about",
+        // "spa in Panitanki about",
         "expert massage therapists Jhapa",
         "professional spa team Birtamode",
         "certified therapists Dhulabari",
@@ -36,24 +36,24 @@ export const metadata: Metadata = {
         "professional wellness center",
         "spa branches Jhapa Nepal",
         "multi-location spa Birtamode",
-        "spa locations Dhulabari Panitanki",
+        // "spa locations Dhulabari Panitanki",
         "Eastern Nepal spa services",
-        "India Nepal border spa",
-        "Absolute Professional Spa team"
+        // "India Nepal border spa",
+        "The Healing Therapy & Wellness Lounge team"
     ],
     alternates: {
         canonical: "/about",
     },
     openGraph: {
-        title: "About Absolute Professional Spa & Salon - Best Spa in Jhapa, Birtamode & Dhulabari",
-        description: "Meet our expert team at the best spa in Jhapa. Absolute Professional Spa & Salon offers authentic wellness treatments across Birtamode, Dhulabari, and Panitanki with certified therapists and traditional healing methods.",
+        title: "About The Healing Therapy & Wellness Lounge - Best Spa in Jhapa, Birtamode & Dhulabari",
+        description: "Meet our expert team at the best spa in Jhapa. The Healing Therapy & Wellness Lounge offers authentic wellness treatments across Birtamode, and Dhulabari with certified therapists and traditional healing methods.",
         url: `${baseURL}/about`,
         images: [
             {
                 url: `${baseURL}/images/preview.webp`,
                 width: 1200,
                 height: 630,
-                alt: "About Absolute Professional Spa & Salon - Best Spa Team in Jhapa, Nepal",
+                alt: "About The Healing Therapy & Wellness Lounge - Best Spa Team in Jhapa, Nepal",
             }
         ],
     },

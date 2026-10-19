@@ -4,18 +4,18 @@ import { Metadata } from "next";
 import { baseURL } from "@/constants";
 
 export const metadata: Metadata = {
-    title: "Contact Us - Absolute Professional Spa & Salon | Book Appointment in Jhapa, Birtamode, Dhulabari",
-    description: "Contact Absolute Professional Spa & Salon for appointments. Visit our spa in Birtamode, Dhulabari (Jhapa, Nepal) or Panitanki (India). Call us for bookings: Birtamode 9701064228, Dhulabari 9704959230. Best spa in Jhapa.",
+    title: "Contact Us - The Healing Therapy & Wellness Lounge | Book Appointment in Jhapa, Birtamode, Dhulabari",
+    description: "Contact The Healing Therapy & Wellness Lounge for appointments. Visit our spa in Birtamode, or Dhulabari (Jhapa, Nepal). Call us for bookings: Birtamode 9701064228, Dhulabari 9704959230. Best spa in Jhapa.",
     keywords: [
         "contact Absolute Professional Spa",
         "spa contact Jhapa",
         "spa contact Birtamode",
         "spa contact Dhulabari",
-        "spa contact Panitanki",
+        // "spa contact Panitanki",
         "book spa appointment Jhapa",
         "spa booking Birtamode",
         "massage appointment Dhulabari",
-        "spa reservation Panitanki",
+        // "spa reservation Panitanki",
         "book massage Jhapa Nepal",
         "spa appointment near me",
         "spa address Birtamode",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         "spa location Jhapa",
         "spa phone number Birtamode",
         "spa contact number Dhulabari",
-        "spa directions Panitanki",
+        // "spa directions Panitanki",
         "book Thai massage Jhapa",
         "hot stone appointment Birtamode",
         "sports massage booking Dhulabari",
@@ -36,22 +36,22 @@ export const metadata: Metadata = {
         "spa timing Jhapa",
         "spa hours Birtamode",
         "spa schedule Dhulabari",
-        "Absolute Professional Spa contact",
+        "The Healing Therapy & Wellness Lounge contact",
         "spa near me Jhapa Nepal"
     ],
     alternates: {
         canonical: "/contact",
     },
     openGraph: {
-        title: "Contact Absolute Professional Spa & Salon - Book Your Appointment in Jhapa",
-        description: "Get in touch with the best spa in Jhapa. Book your appointment at our Birtamode, Dhulabari, or Panitanki locations. Call 9701064228 (Birtamode) or 9704959230 (Dhulabari) for premium spa services.",
+        title: "Contact The Healing Therapy & Wellness Lounge - Book Your Appointment in Jhapa",
+        description: "Get in touch with the best spa in Jhapa. Book your appointment at our Birtamode, or Dhulabari locations. Call 9701064228 (Birtamode) or 9704959230 (Dhulabari) for premium spa services.",
         url: `${baseURL}/contact`,
         images: [
             {
                 url: `${baseURL}/images/preview.webp`,
                 width: 1200,
                 height: 630,
-                alt: "Contact Absolute Professional Spa & Salon - Best Spa in Jhapa, Nepal",
+                alt: "Contact The Healing Therapy & Wellness Lounge - Best Spa in Jhapa, Nepal",
             }
         ],
     },
